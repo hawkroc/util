@@ -93,19 +93,19 @@ public class AESUtil {
     }  
   
     public static void main(String[] args) throws Exception {  
-       // String s = "e5441769554f52916ac132421aa27a7492cb204d09dd4cedf91614a719b95d35";  
+       // String s = "";  
         String [] array= {""
                           };
         for (String s : array) {
         	  // 加密  
-//            System.out.println("加密前：" + s);  
-//            String encryptResultStr = encrypt(s);  
-//            System.out.println("加密后：" + encryptResultStr);  
+            System.out.println("加密前：" + s);  
+            String encryptResultStr = encrypt(s);  
+            System.out.println("加密后：" + encryptResultStr);  
             // 解密  
-            System.out.println("解密前：" + s);  
-            System.out.println("解密后：" + decrypt(s));  
-            System.out.println("================");
-            
+//            System.out.println("解密前：" + s);  
+//            System.out.println("解密后：" + decrypt(s));  
+//            System.out.println("================");
+//            
             
             
 		}
